@@ -1,0 +1,105 @@
+.gallery-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3fdfd;
+}
+.gallery-app-container {
+  background-color: #cbf1f5;
+  height: 100%;
+
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 70%;
+  flex-direction: column;
+}
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header-nav {
+  border-radius: 10px;
+  background-color: #a6e3e9;
+  margin: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.header-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-title h2 {
+  background-color: #e3fdfd;
+  border-radius: 10px;
+  padding: 20px;
+}
+.header-title p {
+  background-color: #e3fdfd;
+  border-radius: 10px;
+  padding: 20px;
+}
+.body-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
+  flex-wrap: wrap;
+}
+.body-item {
+  background-color: #e3fdfd;
+  border-radius: 5px;
+
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background-color: rgba(29, 34, 30, 0.8);
+  opacity: 1;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+.modal img {
+  width: auto;
+  height: 70vh;
+}
+.closeIcon {
+  user-select: none;
+  width: 1 em;
+  height: 1 em;
+  display: inline-block;
+  fill: currentcolor;
+  flex-shrink: 0;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  margin: 4 px;
+  padding: 8 px 16 px;
+  border-radius: 4 px;
+  box-sizing: content-box;
+  color: rgb(255, 255, 255);
+  background-color: rgb(25, 118, 210);
+  position: relative; 
+  top: 20px;
+  align-self: start;
+}
